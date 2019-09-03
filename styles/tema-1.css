@@ -1,0 +1,171 @@
+body {
+    background-color : rgb(210, 156, 142);
+    color : black;
+    font-family: Helvatica, Arial, sans-serif;
+    margin:0;
+}
+
+a {
+    text-decoration: none ;
+    color: black;
+}
+
+a:hover {
+    color : brown;
+    background-color: lightgoldenrodyellow;
+}
+
+a:visited {
+    color: lightsalmon;
+}
+
+.container {
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+.container1 {
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+    background-color:  rgb(165, 84, 65);
+}
+
+
+/* Debug Aid: BEGIN */
+.bg-cadet {
+    background-color: cadetblue;
+}
+/* Debug Aid: END */
+
+.logo {
+    text-align: center;
+}
+
+.menu-primer ul {
+    background-color:brown;
+    border-radius: 10px;
+    box-shadow:
+        0 3px 5px -1px rgba (0,0,0,0.2),
+        0 6px 10px 0 rgba (0,0,0,0.14),
+        0 1px 18px 0 rgba (0,0,0,0.12);
+}
+
+.menu-primer li {
+    display: inline-block;
+}
+
+.menu-primer a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+
+}
+
+.menu-primer a:hover{
+    background-color: lightgoldenrodyellow;
+    color: burlywood;
+}
+
+.menu-primer .active{
+    background-color: lightgoldenrodyellow;
+    color: brown;
+}
+
+.jumbotron {
+    background-color: lightgoldenrodyellow;
+    border: solid 2px #000000;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.jumbotron h1 {
+    margin: 20px 0px ;
+    font-size: 20px;
+}
+
+.copyright p{
+    font-size: 12px;
+}
+
+/*footer box : BEGIN*/
+
+.container-full {
+    background-color :  rgb(165, 84, 65);
+    font-size: 13px;
+}
+
+.footer-box{
+    width: 33.3%;
+    float: left;
+
+}
+
+.footer-box ul{
+    padding: 0;
+}
+
+.footer-box img{
+    vertical-align: middle;
+}
+
+.footer-box li {
+    padding: 2px 0px;
+}
+.footer-box a {
+    color: lightsalmon;
+}
+
+.footer-box h4 {
+    color: lightsalmon;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*footer box : END*/
+
+/*box : BEGIN*/
+.box2-left {
+    width: 49%;
+    float: left;
+}
+
+
+.box2-right {
+    width: 49%;
+    float: right;
+}
+
+.box-heading {
+    border: solid 1px brown;
+    background-color: lightgoldenrodyellow;
+    border-radius: 0px 4px 0px 0px;
+    padding: 15px 20px;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.box-heading h3 {
+    margin: 0;
+}
+
+.box-content {
+    border:solid 2px brown;
+    border-top:0;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.box-content img {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.box-fixed {
+    height: 200px;
+}
+
+/*box : END*/
